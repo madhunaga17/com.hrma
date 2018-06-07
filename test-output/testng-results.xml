@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29947" started-at="2018-06-07T13:02:39Z" finished-at="2018-06-07T13:03:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29947" started-at="2018-06-07T13:02:39Z" finished-at="2018-06-07T13:03:09Z">
+      <class name="com.hrm.scripts.LoginLogoutTest">
+        <test-method status="PASS" signature="initReport()[pri:0, instance:com.hrm.scripts.LoginLogoutTest@1d371b2d]" name="initReport" is-config="true" duration-ms="440" started-at="2018-06-07T13:02:39Z" finished-at="2018-06-07T13:02:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReport -->
+        <test-method status="PASS" signature="initGlobalVar()[pri:0, instance:com.hrm.scripts.LoginLogoutTest@1d371b2d]" name="initGlobalVar" is-config="true" duration-ms="4" started-at="2018-06-07T13:02:39Z" finished-at="2018-06-07T13:02:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initGlobalVar -->
+        <test-method status="PASS" signature="initApplication(java.lang.String)[pri:0, instance:com.hrm.scripts.LoginLogoutTest@1d371b2d]" name="initApplication" is-config="true" duration-ms="12019" started-at="2018-06-07T13:02:39Z" finished-at="2018-06-07T13:02:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApplication -->
+        <test-method status="PASS" signature="preCondition(java.lang.reflect.Method)[pri:0, instance:com.hrm.scripts.LoginLogoutTest@1d371b2d]" name="preCondition" is-config="true" duration-ms="14670" started-at="2018-06-07T13:02:51Z" finished-at="2018-06-07T13:03:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hrm.scripts.LoginLogoutTest.testAutoLoginLogout()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testAutoLoginLogout()[pri:0, instance:com.hrm.scripts.LoginLogoutTest@1d371b2d]" name="testAutoLoginLogout" duration-ms="17" started-at="2018-06-07T13:03:06Z" finished-at="2018-06-07T13:03:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAutoLoginLogout -->
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.hrm.scripts.LoginLogoutTest@1d371b2d]" name="postCondition" is-config="true" duration-ms="1695" started-at="2018-06-07T13:03:06Z" finished-at="2018-06-07T13:03:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAutoLoginLogout status=SUCCESS method=LoginLogoutTest.testAutoLoginLogout()[pri:0, instance:com.hrm.scripts.LoginLogoutTest@1d371b2d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.hrm.scripts.LoginLogoutTest@1d371b2d]" name="closeApplication" is-config="true" duration-ms="1502" started-at="2018-06-07T13:03:08Z" finished-at="2018-06-07T13:03:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="publishReport()[pri:0, instance:com.hrm.scripts.LoginLogoutTest@1d371b2d]" name="publishReport" is-config="true" duration-ms="699" started-at="2018-06-07T13:03:09Z" finished-at="2018-06-07T13:03:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publishReport -->
+      </class> <!-- com.hrm.scripts.LoginLogoutTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

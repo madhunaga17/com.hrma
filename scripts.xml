@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="false">
+  <test name="Test">
+   <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.hrm.scripts.LoginLogoutTest"/>
+      <class name="com.hrm.scripts.ImportCSV"/>
+      <class name="com.hrm.scripts.TestJobTitle"/>
+      <class name="com.hrm.scripts.TestSearchBtn"/>
+      <class name="com.hrm.scripts.CreateDeleteEmp"/>
+      <class name="com.hrm.scripts.CreateDeleteMultipleEmp"/>
+      <!--  class name="com.hrm.scripts.TestIncludeListBox"/> --> 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

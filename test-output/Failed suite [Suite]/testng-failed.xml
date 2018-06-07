@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]" parallel="methods">
+  <test name="Test(failed)(failed)" parallel="methods">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.hrm.scripts.TestInlcudeList">
+        <methods>
+          <include name="initApplication"/>
+          <include name="postCondition"/>
+          <include name="closeApplication"/>
+          <include name="testInlcudeList"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.hrm.scripts.TestInlcudeList -->
+      <class name="com.hrm.scripts.TestJobTitle">
+        <methods>
+          <include name="initReport"/>
+          <include name="publishReport"/>
+          <include name="initGlobalVar"/>
+        </methods>
+      </class> <!-- com.hrm.scripts.TestJobTitle -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
